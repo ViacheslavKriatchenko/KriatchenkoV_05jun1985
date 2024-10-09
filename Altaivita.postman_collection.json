@@ -2,6 +2,7 @@
 	"info": {
 		"_postman_id": "06a163d3-d39a-4f00-8731-4529cee76a64",
 		"name": "Altaivita",
+		"description": "Сайт компании - [https://altaivita.ru](https://altaivita.ru)\n\nSmoke test корзины",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "33180256"
 	},
