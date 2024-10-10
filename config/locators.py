@@ -19,3 +19,6 @@ class CartPageLocators:
     ALL_CART_ITEMS = (
         'xpath', '//div[@class="basket__item js-cart-item"]'
         )
+    DELETE_CART_BUTTONs = ('xpath', '//div[@class="basket__delete js-item-delete"]')
+    BASKET_LIST = ('xpath', '//div[@class="basket__list"]')
+    TOTAL_AMOUNT = ('xpath', '//span[contains(@class, "total_amount")]')

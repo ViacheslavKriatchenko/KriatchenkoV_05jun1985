@@ -40,8 +40,8 @@ class MainPage(ConfigPage, MainPageLocators):
         self.driver.find_element(*self.locator.PLACE_AN_ORDER)
         self.wait.until(EC.element_to_be_clickable((self.locator.PLACE_AN_ORDER)))
 
-    def delete_items_in_cart(self):
-        delete_symbols = self.driver.find_elements(*self.locator.DELETE_CART_BUTTON)
-        del delete_symbols[1::2]
-        for symbol in delete_symbols:
-            symbol.click()
+    # def delete_items_in_cart(self):
+    #     delete_symbols = self.driver.find_elements(*self.locator.DELETE_CART_BUTTON)
+    #     del delete_symbols[1::2]
+    #     for symbol in delete_symbols:
+    #         symbol.click()

@@ -1,6 +1,6 @@
 class Links:
 
     HOST = "https://altaivita.ru"
-    CART_URL = f'{HOST}/cart/'
+    CART_URL = f"{HOST}/cart/"
 
-    API_CART = ""
+    API_CART = f"{HOST}/cart/"
